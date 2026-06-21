@@ -5,7 +5,7 @@ import re
 import os
 
 # =========================
-# 提取 domain
+# 提取 domain（无损）
 # =========================
 def extract_domain(rule: str):
     if not rule:
@@ -80,9 +80,7 @@ if __name__ == "__main__":
 
     output = build(urls)
 
-    # =========================
-    # 📁 创建目录（关键）
-    # =========================
+    # 创建输出目录
     out_dir = "json"
     os.makedirs(out_dir, exist_ok=True)
 
