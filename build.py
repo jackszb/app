@@ -2,16 +2,12 @@ import requests
 import yaml
 import json
 import re
+import os
 
 # =========================
-# 提取 domain（严格无损）
+# 提取 domain
 # =========================
 def extract_domain(rule: str):
-    """
-    支持 AdGuard 格式：
-    ||domain^
-    ||sub.domain.com^
-    """
     if not rule:
         return None
 
@@ -32,15 +28,13 @@ def fetch_yaml(url):
 
 
 # =========================
-# 转换单个 service
+# 转换 service
 # =========================
 def convert_service(data):
-    rules = data.get("rules", [])
-
     domains = []
     seen = set()
 
-    for r in rules:
+    for r in data.get("rules", []):
         domain = extract_domain(r)
         if domain and domain not in seen:
             seen.add(domain)
@@ -59,7 +53,7 @@ def convert_service(data):
 
 
 # =========================
-# 批量处理入口
+# 主构建
 # =========================
 def build(urls):
     result = []
@@ -82,12 +76,19 @@ if __name__ == "__main__":
     urls = [
         "https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/services/apple_streaming.yml",
         "https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/services/dropbox.yml",
-        # 继续加
     ]
 
     output = build(urls)
 
-    with open("sing-box.json", "w", encoding="utf-8") as f:
+    # =========================
+    # 📁 创建目录（关键）
+    # =========================
+    out_dir = "json"
+    os.makedirs(out_dir, exist_ok=True)
+
+    out_file = os.path.join(out_dir, "sing-box.json")
+
+    with open(out_file, "w", encoding="utf-8") as f:
         json.dump(output, f, indent=2, ensure_ascii=False)
 
-    print("✅ done -> sing-box.json")
+    print(f"✅ done -> {out_file}")
