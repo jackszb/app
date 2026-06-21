@@ -1,0 +1,64 @@
+[
+  {
+    "id": "apple_streaming",
+    "name": "Apple Streaming",
+    "group": "streaming",
+    "rules": [
+      {
+        "domain_suffix": [
+          "applemusic.apple",
+          "itun.es",
+          "itunes.es",
+          "itunes.apple.com",
+          "itunes.ca",
+          "itunes.co",
+          "itunes.com",
+          "itunes.co.th",
+          "itunes.g.aaplimg.com",
+          "itunes.hk",
+          "itunes.mx",
+          "itunes.org",
+          "itunes.us",
+          "music.apple.com",
+          "hls-svod-aoc-ve.itunes.g.aaplimg.com",
+          "tv.apple.com",
+          "tv.g.apple.com",
+          "tv.v.aaplimg.com"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dropbox",
+    "name": "Dropbox",
+    "group": "hosting",
+    "rules": [
+      {
+        "domain_suffix": [
+          "addtodropbox.com",
+          "app.hellosign.com",
+          "dash.ai",
+          "db.tt",
+          "docsend.com",
+          "dropbox.com",
+          "dropboxapi.com",
+          "dropboxbusiness.com",
+          "dropboxcaptcha.com",
+          "dropboxforums.com",
+          "dropboxforum.com",
+          "dropboxinsiders.com",
+          "dropboxlegal.com",
+          "dropboxmail.com",
+          "dropboxpartners.com",
+          "dropboxstatic.com",
+          "dropboxteam.com",
+          "dropbox.tech",
+          "getdropbox.com",
+          "dropbox-dns.com",
+          "dropboxusercontent.com",
+          "dropbox.zendesk.com"
+        ]
+      }
+    ]
+  }
+]
