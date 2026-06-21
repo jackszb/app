@@ -1,0 +1,31 @@
+{
+  "version": 4,
+  "rules": [
+    {
+      "domain_suffix": [
+        "addtodropbox.com",
+        "app.hellosign.com",
+        "dash.ai",
+        "db.tt",
+        "docsend.com",
+        "dropbox.com",
+        "dropboxapi.com",
+        "dropboxbusiness.com",
+        "dropboxcaptcha.com",
+        "dropboxforums.com",
+        "dropboxforum.com",
+        "dropboxinsiders.com",
+        "dropboxlegal.com",
+        "dropboxmail.com",
+        "dropboxpartners.com",
+        "dropboxstatic.com",
+        "dropboxteam.com",
+        "dropbox.tech",
+        "getdropbox.com",
+        "dropbox-dns.com",
+        "dropboxusercontent.com",
+        "dropbox.zendesk.com"
+      ]
+    }
+  ]
+}
