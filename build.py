@@ -65,6 +65,7 @@ if __name__ == "__main__":
     urls = [
         "https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/services/apple_streaming.yml",
         "https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/services/dropbox.yml",
+        "https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/services/bluesky.yml",
     ]
 
     out_dir = "json"
