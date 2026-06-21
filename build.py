@@ -41,9 +41,7 @@ def convert_service(data):
             domains.append(domain)
 
     return {
-        "id": data.get("id"),
-        "name": data.get("name"),
-        "group": data.get("group"),
+        "version": 4,
         "rules": [
             {
                 "domain_suffix": domains
@@ -53,23 +51,14 @@ def convert_service(data):
 
 
 # =========================
-# 主构建
+# URL → 文件名
 # =========================
-def build(urls):
-    result = []
-
-    for url in urls:
-        try:
-            data = fetch_yaml(url)
-            result.append(convert_service(data))
-        except Exception as e:
-            print(f"[ERROR] {url}: {e}")
-
-    return result
+def get_filename(url):
+    return url.split("/")[-1].replace(".yml", ".json")
 
 
 # =========================
-# main
+# 主函数
 # =========================
 if __name__ == "__main__":
 
@@ -78,15 +67,21 @@ if __name__ == "__main__":
         "https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/services/dropbox.yml",
     ]
 
-    output = build(urls)
-
-    # 创建输出目录
     out_dir = "json"
     os.makedirs(out_dir, exist_ok=True)
 
-    out_file = os.path.join(out_dir, "sing-box.json")
+    for url in urls:
+        try:
+            data = fetch_yaml(url)
+            output = convert_service(data)
 
-    with open(out_file, "w", encoding="utf-8") as f:
-        json.dump(output, f, indent=2, ensure_ascii=False)
+            filename = get_filename(url)
+            out_path = os.path.join(out_dir, filename)
 
-    print(f"✅ done -> {out_file}")
+            with open(out_path, "w", encoding="utf-8") as f:
+                json.dump(output, f, indent=2, ensure_ascii=False)
+
+            print(f"✅ generated -> {out_path}")
+
+        except Exception as e:
+            print(f"❌ error {url}: {e}")
