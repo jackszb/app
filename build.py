@@ -68,6 +68,11 @@ if __name__ == "__main__":
         "https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/services/youtube.yml",
         "https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/services/bilibili.yml",
         "https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/services/wechat.yml",
+        "https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/services/weibo.yml",
+        "https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/services/xiaohongshu.yml",
+        "https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/services/tiktok.yml",
+        "https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/services/netflix.yml",
+        "https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/services/discord.yml",
     ]
 
     out_dir = "json"
