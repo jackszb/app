@@ -74,6 +74,11 @@ if __name__ == "__main__":
         "https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/services/netflix.yml",
         "https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/services/discord.yml",
         "https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/services/iqiyi.yml",
+        "https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/services/instagram.yml",
+        "https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/services/line.yml",
+        "https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/services/reddit.yml",
+        "https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/services/twitter.yml",
+        "https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/services/whatsapp.yml",
     ]
 
     out_dir = "json"
