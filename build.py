@@ -79,6 +79,14 @@ if __name__ == "__main__":
         "https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/services/reddit.yml",
         "https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/services/twitter.yml",
         "https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/services/whatsapp.yml",
+        "https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/services/cloudflare.yml",
+        "https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/services/amazon.yml",
+        "https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/services/ebay.yml",
+        "https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/services/facebook.yml",
+        "https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/services/plex.yml",
+        "https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/services/steam.yml",
+        "https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/services/xboxlive.yml",
+        "https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/services/twitch.yml",
     ]
 
     out_dir = "json"
