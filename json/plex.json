@@ -1,0 +1,13 @@
+{
+  "version": 4,
+  "rules": [
+    {
+      "domain_suffix": [
+        "plexapp.com",
+        "plex.bz",
+        "plex.direct",
+        "plex.tv"
+      ]
+    }
+  ]
+}
