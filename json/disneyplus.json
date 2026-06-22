@@ -1,0 +1,17 @@
+{
+  "version": 4,
+  "rules": [
+    {
+      "domain_suffix": [
+        "disney-plus.net",
+        "disneyplus.com",
+        "disney.playback.edge.bamgrid.com",
+        "media.dssott.com",
+        "disneynow.com",
+        "hotstar.com",
+        "star.playback.edge.bamgrid.com",
+        "starplus.com"
+      ]
+    }
+  ]
+}
