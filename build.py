@@ -87,6 +87,10 @@ if __name__ == "__main__":
         "https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/services/steam.yml",
         "https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/services/xboxlive.yml",
         "https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/services/twitch.yml",
+        "https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/services/vimeo.yml",
+        "https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/services/snapchat.yml",
+        "https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/services/playstation.yml",
+        "https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/services/epic_games.yml",
     ]
 
     out_dir = "json"
