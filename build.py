@@ -68,6 +68,7 @@ if __name__ == "__main__":
         "https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/services/bluesky.yml",
         "https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/services/chatgpt.yml",
         "https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/services/youtube.yml",
+        "https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/services/bilibili.yml",
     ]
 
     out_dir = "json"
