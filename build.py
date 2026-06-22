@@ -94,6 +94,9 @@ if __name__ == "__main__":
         "https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/services/amazon_streaming.yml",
         "https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/services/apple_streaming.yml",
         "https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/services/hbomax.yml",
+        "https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/services/disneyplus.yml",
+        "https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/services/pinterest.yml",
+        "https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/services/nintendo.yml",
     ]
 
     out_dir = "json"
