@@ -1,0 +1,27 @@
+{
+  "version": 4,
+  "rules": [
+    {
+      "domain_suffix": [
+        "applemusic.apple",
+        "itun.es",
+        "itunes.es",
+        "itunes.apple.com",
+        "itunes.ca",
+        "itunes.co",
+        "itunes.com",
+        "itunes.co.th",
+        "itunes.g.aaplimg.com",
+        "itunes.hk",
+        "itunes.mx",
+        "itunes.org",
+        "itunes.us",
+        "music.apple.com",
+        "hls-svod-aoc-ve.itunes.g.aaplimg.com",
+        "tv.apple.com",
+        "tv.g.apple.com",
+        "tv.v.aaplimg.com"
+      ]
+    }
+  ]
+}
