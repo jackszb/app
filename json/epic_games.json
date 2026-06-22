@@ -1,0 +1,13 @@
+{
+  "version": 4,
+  "rules": [
+    {
+      "domain_suffix": [
+        "epicgames.com",
+        "easyanticheat.net",
+        "easy.ac",
+        "eac-cdn.com"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 4,
+  "rules": [
+    {
+      "domain_suffix": [
+        "gaikai.com",
+        "playstation-cloud.com",
+        "playstation-cloud.net",
+        "playstation.com",
+        "playstation.net",
+        "scea.com",
+        "sonyentertainmentnetwork.com",
+        "station.sony.com"
+      ]
+    }
+  ]
+}
