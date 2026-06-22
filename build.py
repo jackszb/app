@@ -73,6 +73,7 @@ if __name__ == "__main__":
         "https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/services/tiktok.yml",
         "https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/services/netflix.yml",
         "https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/services/discord.yml",
+        "https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/services/iqiyi.yml",
     ]
 
     out_dir = "json"
