@@ -1,0 +1,21 @@
+{
+  "version": 4,
+  "rules": [
+    {
+      "domain_suffix": [
+        "cctv.com",
+        "cctv.cn",
+        "cntv.cn",
+        "cntv.com.cn",
+        "ipanda.com",
+        "ipanda.cn",
+        "ipanda.com.cn",
+        "cctvpic.com",
+        "livechina.cn",
+        "livechina.com",
+        "olympicchannelchina.cn",
+        "chinaepg.cn"
+      ]
+    }
+  ]
+}
