@@ -1,0 +1,20 @@
+{
+  "version": 4,
+  "rules": [
+    {
+      "domain_suffix": [
+        "github.com",
+        "githubusercontent.com",
+        "githubassets.com",
+        "github.dev",
+        "github.io",
+        "githubapp.com",
+        "github.blog",
+        "githubstatus.com",
+        "ghcr.io",
+        "npmjs.org",
+        "npmjs.com"
+      ]
+    }
+  ]
+}
