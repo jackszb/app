@@ -99,6 +99,7 @@ if __name__ == "__main__":
         "https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/services/nintendo.yml",
         "https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/services/douban.yml",
         "https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/services/telegram.yml",
+        "https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/services/spotify.yml",
     ]
 
     out_dir = "json"
