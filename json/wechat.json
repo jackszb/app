@@ -1,0 +1,14 @@
+{
+  "version": 4,
+  "rules": [
+    {
+      "domain_suffix": [
+        "wechat.com",
+        "weixin.qq.com",
+        "weixin.qq.com.cn",
+        "weixinbridge.com",
+        "wx.qq.com"
+      ]
+    }
+  ]
+}
